@@ -1,0 +1,11 @@
+{
+    "port": 8000,
+    "files": [
+        "./dist/index.html",
+        "./dist/fixed.html",
+        "./dist/assets/**/*"
+    ],
+    "server": {
+        "baseDir": "./dist/"
+    }
+}

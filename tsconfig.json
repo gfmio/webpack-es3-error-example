@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es3",
+        "outDir": "../../dist",
+        "declaration": true,
+        "sourceMap": true,
+        "removeComments": false,
+        "alwaysStrict": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "noUnusedLocals": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "noEmitHelpers": false,
+        "importHelpers": false,
+        "lib": [
+            "dom",
+            "es5",
+            "es6",
+            "es2015.promise"
+        ]
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}

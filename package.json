@@ -1,0 +1,21 @@
+{
+  "name": "webpack-es3-error-example",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "npm run webpack && npm run fix",
+    "webpack": "webpack",
+    "fix": "sed 's/exports: {}/exports: { __esModule: undefined }/' ./dist/assets/app.js > ./dist/assets/app-fixed.js",
+    "start": "./node_modules/.bin/lite-server"
+  },
+  "author": "Frederique Mittelstaedt <frederique@gfm.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.5.0",
+    "copy-webpack-plugin": "^4.5.0",
+    "hard-source-webpack-plugin": "^0.6.4",
+    "lite-server": "^2.3.0",
+    "typescript": "^2.7.2",
+    "webpack": "^3.10.0"
+  }
+}
